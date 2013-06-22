@@ -1,4 +1,6 @@
 #!/usr/bin node
+var fs = require('fs');
+var outfile = "hello.txt"
 
 function get_100_primes() {
 	
