@@ -32,4 +32,4 @@ function get_100_primes() {
 primer_string = get_100_primes()
 
 fs.writeFileSync(outfile, primer_string);  
-console.log("Script: " + __filename + "\nWrote: " + out + "To: " + outfile);
+console.log("Script: " + __filename + "\nWrote: " + primer_string + "To: " + outfile);
