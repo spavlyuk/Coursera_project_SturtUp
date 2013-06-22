@@ -1,4 +1,4 @@
-#!/usr/bin/env node
+#!/usr/bin node
 
 var fs = require('fs');
 var outfile = "hello.txt"
